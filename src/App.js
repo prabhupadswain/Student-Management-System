@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import Students from './components/Students';
 import AddStudent from './components/AddStudent';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   //<img src={logo} className="App-logo" alt="logo" />
@@ -17,8 +18,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<HomePage /> }/>
-          <Route path='/students' element={<Students/>} />
-          <Route path='/addstudent' element={<AddStudent/>} />
+          <Route path='students' element={<Students/>} />
+          <Route path='addstudent' element={<AddStudent/>} />
+          <Route path= '*' element={<PageNotFound/>} />
         </Routes>
       </BrowserRouter>
     </div>
