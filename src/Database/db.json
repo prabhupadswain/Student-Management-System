@@ -1,0 +1,11 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Pankaj Sharma",
+      "username": "psharma",
+      "email": "sharmap@gmail.com",
+      "phone": "2345123212"
+    }
+  ]
+}
